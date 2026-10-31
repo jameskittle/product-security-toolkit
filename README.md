@@ -57,4 +57,6 @@ Keep private business details out of public issues and examples. Use an approved
 
 ## License and publication
 
-Published at [jameskittle/product-security-toolkit](https://github.com/jameskittle/product-security-toolkit). Available under the [MIT License](LICENSE). Article 1 is awaiting publication; its link will be added when available.
+Published at [jameskittle/product-security-toolkit](https://github.com/jameskittle/product-security-toolkit). Available under the [PolyForm Internal Use License 1.0.0](LICENSE). This source-available toolkit permits use and modification for your own internal business operations; redistribution is not permitted under this license. For other permissions, contact James Kittle through his [GitHub profile](https://github.com/jameskittle).
+
+Copyright (c) 2026 James Kittle. Earlier revisions published under MIT remain available under their original terms. The license change begins at commit [`9b8377b`](https://github.com/jameskittle/product-security-toolkit/commit/9b8377b2803af690e4cb7435a9b47758306c662c). Article 1 is awaiting publication; its link will be added when available.
