@@ -1,5 +1,11 @@
 # Changelog
 
+## License change | October 31, 2026
+
+- Adopt PolyForm Internal Use License 1.0.0 beginning at commit `9b8377b2803af690e4cb7435a9b47758306c662c`.
+- Update the README to describe internal-use permissions and redistribution restrictions.
+- Preserve the licensing history: earlier revisions were distributed under MIT. This change does not withdraw permissions already granted for those revisions.
+
 ## 0.1.0 | October 31, 2026
 
 - Add Business-Context Discovery Skill and bundled templates.
