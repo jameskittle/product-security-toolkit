@@ -1,6 +1,8 @@
 # Product Security Toolkit
 
-By James Kittle. Companion to **Building and Operating Product Security**.
+By James Kittle. Companion to **Building Your Business Secure by Design in the AI Age**.
+
+Start with [Article 1: Building Your Business Secure by Design in the AI Age](https://medium.com/@jameskittle/building-your-business-secure-by-design-in-the-ai-age-e36014d4253b).
 
 Build a product security program around your business: what creates value, which workflows matter, who owns them and what evidence supports the security decisions.
 
@@ -32,7 +34,7 @@ Version **0.1.0** is the initial Article 1 toolkit. Nothing in the roadmap impli
 
 | Article | Companion | Status |
 |---|---|---|
-| 1. What Product Security Is For | Discovery skill, profile, charter and worked examples | Released |
+| 1. [Building Your Business Secure by Design in the AI Age](https://medium.com/@jameskittle/building-your-business-secure-by-design-in-the-ai-age-e36014d4253b) | Discovery skill, profile, charter and worked examples | Released |
 | 2. Secure by Design, Secure by Default | Assessment and security requirements | Planned |
 | 3. Applying Zero Trust to Product Architecture | Protect surfaces and Zero Trust Chains | Planned |
 | 4. Building the Product Security Organization | Responsibilities and capability roadmap | Planned |
@@ -59,4 +61,6 @@ Keep private business details out of public issues and examples. Use an approved
 
 Published at [jameskittle/product-security-toolkit](https://github.com/jameskittle/product-security-toolkit). Available under the [PolyForm Internal Use License 1.0.0](LICENSE). This source-available toolkit permits use and modification for your own internal business operations; redistribution is not permitted under this license. For other permissions, contact James Kittle through his [GitHub profile](https://github.com/jameskittle).
 
-Copyright (c) 2026 James Kittle. Earlier revisions published under MIT remain available under their original terms. The license change begins at commit [`9b8377b`](https://github.com/jameskittle/product-security-toolkit/commit/9b8377b2803af690e4cb7435a9b47758306c662c). Article 1 is awaiting publication; its link will be added when available.
+Copyright (c) 2026 James Kittle. Earlier revisions published under MIT remain available under their original terms. The license change begins at commit [`9b8377b`](https://github.com/jameskittle/product-security-toolkit/commit/9b8377b2803af690e4cb7435a9b47758306c662c). 
+
+[Read Article 1 on Medium](https://medium.com/@jameskittle/building-your-business-secure-by-design-in-the-ai-age-e36014d4253b).
