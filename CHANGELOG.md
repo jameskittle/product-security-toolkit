@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.4.0 | November 1, 2026
+
+- Link published Article 4, *Building the Product Security Organization*, and mark its companion resources Released.
+- Add the Product Security Organization Design Skill with four bundled Markdown assets.
+- Add a culture-first organization design record, RACI responsibility matrix, explicit decision-rights and risk-acceptance record and staged capability roadmap.
+- Add Boerum Hill's fictional online-ordering release-risk scenario, including independent Security assessment, decision limits and unverified assumptions.
+- Add six synthetic evaluation cases and a reproduction protocol. Cases have **not been executed**; no behavioral pass claim is made.
+- Preserve human business-risk authority, engineering ownership and evidence-status distinctions. No policy or operational approval is implied.
+- Retain PolyForm Internal Use License 1.0.0. No version tag or GitHub Release object is created by this documentation version.
+
+
 ## 0.3.0 | October 31, 2026
 
 - Link published Article 3 and mark its companion materials available.
