@@ -30,6 +30,8 @@ For assistants that support folder-based skills, import the complete `skills/dis
 
 ## Article 2: Secure by Design, Secure by Default
 
+[Read Article 2 on Medium](https://medium.com/@jameskittle/secure-by-design-secure-by-default-1319bddcce2b).
+
 Use the [Secure by Design Assessment Skill](skills/assess-secure-by-design/SKILL.md) with its bundled assets and your reviewed business profile.
 
 Ask your assistant: “Assess this workflow against the five Article 2 practices. Produce explicit security requirements and an evidence review. Mark proposed rules and missing evidence, identify the authoritative service checks and suggest reusable patterns that make implementation easier. Do not run tests or change systems.”
@@ -43,7 +45,7 @@ Ask your assistant: “Assess this workflow against the five Article 2 practices
 | [Assessment Evaluation Cases](evaluations/secure-by-design-cases.md) | Check ambiguous policy, approved exceptions and unsafe agent instructions |
 | [Assessment Evaluation Results](evaluations/secure-by-design-results.md) | Read observed results and evaluation limits |
 
-Import the complete assessment skill folder where supported, or provide its Markdown instructions and both assets directly to your assistant. This is an evidence-aware planning/review tool, not an automated security tester. Article 2's manuscript is in editorial preparation; no published article URL is claimed.
+Import the complete assessment skill folder where supported, or provide its Markdown instructions and both assets directly to your assistant. This is an evidence-aware planning/review tool, not an automated security tester.
 
 ## Release roadmap
 
@@ -52,7 +54,7 @@ Version **0.2.0** adds the Article 2 assessment and requirements resources to th
 | Article | Companion | Status |
 |---|---|---|
 | 1. [Building Your Business Secure by Design in the AI Age](https://medium.com/@jameskittle/building-your-business-secure-by-design-in-the-ai-age-e36014d4253b) | Discovery skill, profile, charter and worked examples | Released |
-| 2. Secure by Design, Secure by Default | Assessment skill, requirements, evidence review and examples | Toolkit available; article pending |
+| 2. [Secure by Design, Secure by Default](https://medium.com/@jameskittle/secure-by-design-secure-by-default-1319bddcce2b) | Assessment skill, requirements, evidence review and examples | Released |
 | 3. Applying Zero Trust to Product Architecture | Protect surfaces and Zero Trust Chains | Planned |
 | 4. Building the Product Security Organization | Responsibilities and capability roadmap | Planned |
 | 5. Product Security When Everyone Can Build Software | Intake and prototype transition | Planned |
