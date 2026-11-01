@@ -47,15 +47,35 @@ Ask your assistant: “Assess this workflow against the five Article 2 practices
 
 Import the complete assessment skill folder where supported, or provide its Markdown instructions and both assets directly to your assistant. This is an evidence-aware planning/review tool, not an automated security tester.
 
+## Article 3: Applying Zero Trust to Product Architecture
+
+[Read Article 3 on Medium](https://medium.com/@jameskittle/applying-zero-trust-to-product-architecture-da3d2f142a9b).
+
+Start with your reviewed business profile and security requirements. Use the Protect-Surface Discovery Skill to define what needs protection, then use the Zero Trust Chain Review Skill to map interactions and propose enforcement points.
+
+| Resource | Purpose |
+|---|---|
+| [Protect-Surface Discovery Skill](skills/discover-protect-surface/SKILL.md) | Define scope, consequences, dependencies and responsibility boundaries |
+| [Protect Surface Record](templates/protect-surface.md) | Record evidence, exclusions, owners and unknowns |
+| [Transaction-Flow Template](templates/transaction-flow.md) | Map actors, authority, service calls and architectural decisions |
+| [Zero Trust Chain Review Skill](skills/review-zero-trust-chain/SKILL.md) | Review service identity, delegated authority, privilege amplification and bypass paths |
+| [Boerum Hill Architecture Review](examples/spice-company/zero-trust-architecture-review.md) | Follow the support/refund design and its verification plan |
+| [Architecture Evaluation Cases](evaluations/zero-trust-cases.md) | Exercise incomplete evidence, broad credentials, agents and unsafe instructions |
+| [Architecture Evaluation Results](evaluations/zero-trust-results.md) | Read observed outputs and limitations |
+
+Ask: “Use the discovery skill to define a provisional protect surface for this workflow. Then use the chain-review skill to map its transactions and propose controls. Distinguish supplied facts, design proposals, inspected implementation and test results. Identify gaps, owners and permitted/denied checks. Do not execute tests or change systems.”
+
+Provide each complete skill folder, including its one bundled asset, using your assistant's documented import process. Assistants without native skill import can read the same instructions and template directly. Native imports and other platforms have not been tested. These are planning and review skills; they do not run penetration tests or approve deployment.
+
 ## Release roadmap
 
-Version **0.2.0** adds the Article 2 assessment and requirements resources to the Article 1 toolkit. Later materials remain planned.
+Version **0.3.0** adds the Article 3 architecture skills, templates, worked example and evaluation records. Articles 1 through 3 now have companion resources. Later materials remain planned.
 
 | Article | Companion | Status |
 |---|---|---|
 | 1. [Building Your Business Secure by Design in the AI Age](https://medium.com/@jameskittle/building-your-business-secure-by-design-in-the-ai-age-e36014d4253b) | Discovery skill, profile, charter and worked examples | Released |
 | 2. [Secure by Design, Secure by Default](https://medium.com/@jameskittle/secure-by-design-secure-by-default-1319bddcce2b) | Assessment skill, requirements, evidence review and examples | Released |
-| 3. Applying Zero Trust to Product Architecture | Protect surfaces and Zero Trust Chains | Planned |
+| 3. [Applying Zero Trust to Product Architecture](https://medium.com/@jameskittle/applying-zero-trust-to-product-architecture-da3d2f142a9b) | Protect-surface discovery, transaction flows and architecture review | Released |
 | 4. Building the Product Security Organization | Responsibilities and capability roadmap | Planned |
 | 5. Product Security When Everyone Can Build Software | Intake and prototype transition | Planned |
 | 6. Engineering Security Into Delivery | Pipeline review and release decisions | Planned |
@@ -72,9 +92,9 @@ Dates will follow the editorial schedule. See [CHANGELOG.md](CHANGELOG.md) for c
 
 An AI-written document is a proposal. A policy establishes intent; implementation evidence shows a control exists; testing provides evidence about effectiveness within its scope and date. Keep those distinctions in every output.
 
-The toolkit uses Secure by Design and a business-first Zero Trust approach. James Kittle's **Zero Trust Chains** extends the analysis across workflows: “No decision inherits trust.” The discovery and assessment skills identify candidate boundaries and review requirements and evidence; it does not perform technical assessment, certify compliance or operate a testing agent.
+The toolkit uses Secure by Design and a business-first Zero Trust approach. James Kittle's **Zero Trust Chains** extends the analysis across workflows: “No decision inherits trust.” The skills identify candidate boundaries and review requirements, architecture and evidence. They do not execute technical tests, certify compliance or operate a testing agent.
 
-Keep private business details out of public issues and examples. Use an approved AI environment and minimum necessary information. Report toolkit defects through repository issues once hosting is established; send vulnerabilities in another organization's systems through that organization's authorized disclosure channel.
+Keep private business details out of public issues and examples. Use an approved AI environment and minimum necessary information. Report toolkit defects through repository issues; send vulnerabilities in another organization's systems through that organization's authorized disclosure channel.
 
 ## License and publication
 

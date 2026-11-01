@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.0 | October 31, 2026
+
+- Link published Article 3 and mark its companion materials available.
+- Add Protect-Surface Discovery and Zero Trust Chain Review skills with bundled templates.
+- Add protect-surface and transaction-flow templates plus a Boerum Hill architecture example.
+- Add synthetic evaluation cases, observed responses and explicit evaluation limits.
+- Keep architecture proposals separate from implementation and execution evidence.
+- Retain the existing license. This update creates no version tag or GitHub Release.
+
 ## 0.2.0 | October 31, 2026
 
 - Add Secure by Design Assessment Skill with bundled requirements and evidence templates.
