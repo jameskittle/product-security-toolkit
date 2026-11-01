@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.0 | October 31, 2026
+
+- Add Secure by Design Assessment Skill with bundled requirements and evidence templates.
+- Add proposed refund requirements and evidence review for Boerum Hill Spice Company.
+- Add evaluation cases and results for unclear policy, exceptions, defaults and unsafe embedded instructions.
+- Update README with Article 2 workflow and materials. Article 2 is not yet published.
+- Retain PolyForm Internal Use License 1.0.0. No version tag or GitHub Release is created by this update.
+
 ## License change | October 31, 2026
 
 - Adopt PolyForm Internal Use License 1.0.0 beginning at commit `9b8377b2803af690e4cb7435a9b47758306c662c`.
