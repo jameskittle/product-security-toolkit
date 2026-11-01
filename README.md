@@ -67,16 +67,37 @@ Ask: “Use the discovery skill to define a provisional protect surface for this
 
 Provide each complete skill folder, including its one bundled asset, using your assistant's documented import process. Assistants without native skill import can read the same instructions and template directly. Native imports and other platforms have not been tested. These are planning and review skills; they do not run penetration tests or approve deployment.
 
+## Article 4: Building the Product Security Organization
+
+[Read Article 4 on Medium](https://medium.com/@jameskittle/building-the-product-security-organization-dd3eef581c25).
+
+This companion package helps leaders design a Product Security function that earns engineering trust, clarifies responsibilities and provides independent security advice without claiming unilateral authority over business risk. Begin with the [Organization Design Skill](skills/design-product-security-organization/SKILL.md) and its four bundled assets. Supply your business profile, existing roles, available policies and known operational constraints.
+
+Ask: “Design a provisional Product Security operating model based on our business and existing team. Describe the security culture we should encourage, identify accountable functions and decision powers, distinguish recommendations from approvals and propose a capability roadmap matched to exposure and capacity. Complete all four templates and list the critical unknowns. Do not approve risk or assign real people without evidence.”
+
+| Resource | Purpose |
+|---|---|
+| [Organization Design Skill](skills/design-product-security-organization/SKILL.md) | Guide a culture-first, evidence-aware operating-model review |
+| [Organization Design Record](templates/product-security-organization-design.md) | Define the mandate, partnership and service model |
+| [Responsibility Matrix](templates/product-security-responsibility-matrix.md) | Allocate RACI activities without inventing delegated authority |
+| [Decision Rights and Risk-Acceptance Record](templates/product-security-decision-rights.md) | Clarify business decision powers, security advice, exception terms and escalation |
+| [Capability and Capacity Roadmap](templates/product-security-capability-roadmap.md) | Sequence investment according to exposure and demand |
+| [Boerum Hill Organization Review](examples/spice-company/product-security-organization-review.md) | Show a fictional checkout-risk decision and unknown authority |
+| [Organization Evaluation Cases](evaluations/organization-design-cases.md) | Challenge sparse evidence, false approvals, conflicting authority and AI agents |
+| [Evaluation Status](evaluations/organization-design-results.md) | Describe the test plan and explicitly disclose unexecuted cases |
+
+Import the complete skill folder, including its four bundled templates, where supported. The package creates planning records for human approval. It does not appoint security leaders, accept risk, grant stop-ship authority, operate a risk register or authorize product releases. Synthetic behavioral evaluations remain **not run**; native skill import and other platforms have not been verified.
+
 ## Release roadmap
 
-Version **0.3.0** adds the Article 3 architecture skills, templates, worked example and evaluation records. Articles 1 through 3 now have companion resources. Later materials remain planned.
+Version **0.4.0** adds Article 4's organization-design skill, responsibility and decision-rights records, staged capability roadmap, fictional example and synthetic evaluation plan. Articles 1 through 4 now have companion resources. Article 4 behavioral evaluation has not been executed; later materials remain planned.
 
 | Article | Companion | Status |
 |---|---|---|
 | 1. [Building Your Business Secure by Design in the AI Age](https://medium.com/@jameskittle/building-your-business-secure-by-design-in-the-ai-age-e36014d4253b) | Discovery skill, profile, charter and worked examples | Released |
 | 2. [Secure by Design, Secure by Default](https://medium.com/@jameskittle/secure-by-design-secure-by-default-1319bddcce2b) | Assessment skill, requirements, evidence review and examples | Released |
 | 3. [Applying Zero Trust to Product Architecture](https://medium.com/@jameskittle/applying-zero-trust-to-product-architecture-da3d2f142a9b) | Protect-surface discovery, transaction flows and architecture review | Released |
-| 4. Building the Product Security Organization | Responsibilities and capability roadmap | Planned |
+| 4. [Building the Product Security Organization](https://medium.com/@jameskittle/building-the-product-security-organization-dd3eef581c25) | Organization skill, RACI, decision rights, roadmap and example | Released |
 | 5. Product Security When Everyone Can Build Software | Intake and prototype transition | Planned |
 | 6. Engineering Security Into Delivery | Pipeline review and release decisions | Planned |
 | 7. Penetration Testing: What It Proves | Testing strategy and engagement scope | Planned |
